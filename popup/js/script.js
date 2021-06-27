@@ -14,7 +14,7 @@ $(function() {
 	}
 
 	//при нажатии на кнопку button нужной формы запускаем функцию обработки данных
-	$('#contact_form .button').live('click', function() {
+	$('#contact_form .button').on('click', function() {
 		if (formValide()) {
 			//если форма прошла проверку, выводим блок с текстом ожидания
 			$('#contact_form').before('<h3 id="contact_form_info">Оформление заявки. Подождите...</h3>');
@@ -55,7 +55,7 @@ $(function() {
 		return false;
 	});
 	//функция закрытия окна
-	$('#popup_close, #fade').live('click', function() {
+	$('#popup_close, #fade').on('click', function() {
 		$('#fade').fadeOut(function() {
 			$('#fade').remove();			
             $('#popup_close').remove();
