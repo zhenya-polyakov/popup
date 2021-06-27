@@ -9,7 +9,7 @@
 <script type="text/javascript" src="./js/jquery-1.7.2.min.js" ></script>
 <script type="text/javascript" src="./js/script.js"></script>
 </head>
-
+<body>
 <div id="content" style="height:800px; width:980px; margin:0 auto; border:1px solid black; padding:200px 100px; text-align:center;">
     <a href="#" id="callback">Заказать обратный звонок</a>
 	<Br/>
